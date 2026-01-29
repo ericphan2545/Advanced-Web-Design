@@ -1,0 +1,55 @@
+/* General Page Styling */
+body {
+  background-color: #5f9ea0;
+  padding: 30px;
+  font-family: "Times New Roman", serif;
+  font-weight: bolder;
+  font-size: large;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 350px;
+  margin-bottom: 12px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 2px 5px;
+}
+
+input[type="button"] {
+  background-color: white;
+  color: #cc0000;
+  border: 1px solid #777;
+  padding: 5px 15px;
+  font-weight: bolder;
+  font-size: 18px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #ffffff;
+}
+
+.table {
+  background-color: #00ced1;
+}
+
+.table thead th {
+  background-color: #00ffff;
+  color: black;
+  border: 2px solid #ffffff;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Table Cells Styling */
+.table td {
+  border: 2px solid #ffffff;
+  text-align: center;
+  color: #000;
+  background-color: lightblue;
+}
