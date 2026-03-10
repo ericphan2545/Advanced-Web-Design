@@ -1,0 +1,28 @@
+hello = function () {
+  console.log("hello world!");
+};
+
+const PI = 3.14;
+
+var Rectangle = class {
+  constructor(length, width) {
+    this.length = length;
+    this.width = width;
+  }
+
+  showInfo() {
+    console.log(`Rectangle ${this.width} x ${this.length}`);
+  }
+
+  showArea() {
+    console.log("Area: " + this.length * this.width);
+  }
+
+  showCircuit() {
+    console.log("Circuit: " + 2 * (this.length + this.width));
+  }
+};
+
+module.exports.hello = hello;
+module.exports.PI = PI;
+module.exports.Rectangle = Rectangle;
